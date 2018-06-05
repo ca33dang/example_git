@@ -1,0 +1,21 @@
+def wear(smell)
+  sample :guit_e_fifths, rate: 1
+  sleep 2
+end
+
+def wash(temp)
+  play 70
+  sleep 2
+end
+
+def dry
+  sample :drum_heavy_kick
+  sleep 2
+end
+
+5.times do
+  wear 1
+  sleep 1
+  wash 70
+  sleep 1
+end
